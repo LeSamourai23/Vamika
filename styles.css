@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'SF Pro Display', thin;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    flex-direction: column;
+  }
+
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 5em;
+    color:#9a0000;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .yes-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color:rgb(112, 60, 76);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .no-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color:#F4C2C2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .gif_container img {
+    max-width: 1500px;
+    height: 200;
+    border-radius: 20px;
+    margin-top: 30px;
+  }
